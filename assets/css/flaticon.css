@@ -28,9 +28,11 @@
         font-style: normal;
 }
 
+.flaticon-car6:before { content: "\e001";}
 .flaticon-plane:before { content: "\f100";}
 .flaticon-ship:before { content: "\f101"; }
 .flaticon-truck:before { content: "\f102"; }
+.flaticon-terminal:before{content:"\f120"}
 .flaticon-delivery:before { content: "\f103"; }
 .flaticon-travel:before { content: "\f104"; }
 .flaticon-truck-1:before { content: "\f105"; }
