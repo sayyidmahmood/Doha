@@ -248,7 +248,7 @@ a:focus {
   color:#fff;
 }
 .logo {
-    margin-top: 27px;
+    margin-top: 10px;
 }
 .main-menu .submenu li a {
     padding: 10px 15px 10px 0px;
@@ -550,8 +550,17 @@ mobile menu
 
 .hero .slide .slider-bg {
   display: none;
+  
+ 
 }
-
+/* @media(max-width:768px){
+  .slider-bg {
+    
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  background-position:center center;
+  }
+} */
 .hero .slide:focus {
   outline: none;
 }
@@ -1657,6 +1666,7 @@ mobile menu
 .ulc {
   list-style-type: square;
   color: #fff;
+  padding-left: 20px;
   
 }
 /*=======================================
@@ -3490,7 +3500,7 @@ page loader
   position: relative;
   border: 4px solid #E31D2D;
   top: 50%;
-  left: 50%;
+  left: 47%;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
