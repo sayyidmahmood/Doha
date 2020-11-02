@@ -3101,7 +3101,7 @@ mobile menu
     background: #f5f5f5;
     height: 50px;
     padding: 6px 15px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     border: 2px solid #ddd;
     border-radius: 0;
     -webkit-box-shadow: none;
@@ -3145,7 +3145,7 @@ mobile menu
 .contact-validation-active #success,
 .contact-validation-active #error {
     width: 100%;
-    color: #fff;
+    color: rgb(0, 0, 0);
     padding: 5px 10px;
     font-size: 16px;
     text-align: center;
@@ -3170,6 +3170,12 @@ mobile menu
 .contact-validation-active .error-handling-messages {
     margin-top: 15px;
 }
+
+.contact-validation-active #success {
+  background-color: #1ecf4a;
+  border-left: 5px solid #1ecf4a;
+}
+
 
 .contact-validation-active #error {
     background-color: #ff1a1a;

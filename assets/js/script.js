@@ -115,22 +115,26 @@
 
                 phone: "required",
 
-                address: "required",
+                subject: "required",
+
+                message: "required"
             },
 
             messages: {
                 name: "Please enter your name",
                 email: "Please enter your email address",
                 phone: "Please enter your phone number",
-                address: "Please enter your address",
+                subject: "Please enter your subject",
+                message: "Please enter your message"
             },
 
             submitHandler: function (form) {
                 $.ajax({
                     type: "POST",
-                    url: "mail.php",
+                    url: "https://script.google.com/macros/s/AKfycbzj9sIJ8SqYuywIzBlhtdPH60jruIrytrFq9nk/exec",
                     data: $(form).serialize(),
                     success: function () {
+                      //  alert("Form submitted successfully")
                         $( "#loader").hide();
                         $( "#success").slideDown( "slow" );
                         setTimeout(function() {
@@ -148,6 +152,8 @@
                 });
                 return false; // required to block normal submit since you used ajax
             }
+
+        
 
         });
     }
